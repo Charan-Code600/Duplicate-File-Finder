@@ -37,4 +37,4 @@ python duplicate_finder.py
 
 ## Author
 
-Charan | Python Developer
+Charan Aade | Python Developer
