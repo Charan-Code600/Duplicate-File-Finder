@@ -2,32 +2,48 @@
 
 
 
+
 # 🔍 Duplicate File Finder
 
-A Python tool that scans a folder and finds duplicate files using SHA-256 hashing.
+A Python tool that scans a folder (and all its subfolders) and finds duplicate files by comparing their actual content using SHA-256 hashing — not just file name or size.
+
+## ⚠️ Important — Read Before Using
+
+This tool can **permanently delete files**. Deleted files do **not** go to the Recycle Bin — they are removed directly. Always review the KEEP/DELETE list carefully before confirming deletion, and consider backing up important folders first.
 
 ## Features
 
-- 🔍 Scans folder and all subfolders for duplicate files
-- 🔐 Uses SHA-256 hash to compare file content (not just size)
-- 📁 Groups duplicate files together
-- ⚠️ Shows exactly how many duplicates found
-- 🗑️ Option to delete duplicates
-- ❌ Error handling for invalid paths and locked files
+- 🔍 Scans a folder and all its subfolders for duplicates
+- 🔐 Uses SHA-256 hashing to compare actual file content (two files with different names but identical content are correctly detected as duplicates)
+- 📁 Groups duplicate files together, clearly showing which file will be **kept** and which will be **deleted**
+- 🗓️ Always keeps the **oldest** file in each duplicate group (by last-modified date) — a fixed, predictable rule, not random
+- 🧹 Skips empty (0-byte) files automatically — these aren't treated as "duplicates" since many unrelated empty files can share the same hash
+- ✅ Shows the full list of files to be deleted *before* asking for confirmation
+- 🗑️ Optional deletion — nothing is deleted unless you explicitly confirm with `yes`
+- ❌ Error handling for invalid folder paths and unreadable/locked files
+
+## Requirements
+
+- Python 3.x (no external libraries needed)
 
 ## How to Run
 
-\`\`\`
+```bash
 python duplicate_finder.py
-\`\`\`
+```
 
 ## How to Use
 
-1. Run the program
-2. Enter folder path
-3. Program scans all files including subfolders
-4. See duplicate files grouped together
-5. Choose to delete or keep them
+1. Run the program.
+2. Enter the full folder path you want to scan (subfolders are included automatically).
+3. The tool scans every file and groups any exact-content duplicates together.
+4. For each group, it shows which file will be **kept** (the oldest one) and which will be **deleted**.
+5. Review the list carefully.
+6. Type `yes` to delete the listed duplicates, or `no` to cancel — no files are touched unless you confirm.
+
+## How "Keep vs Delete" Is Decided
+
+When duplicate copies of the same file are found, the tool always keeps the **oldest** one (earliest last-modified date) and marks the newer copies for deletion. This keeps the behavior predictable — the same duplicate set will always give the same result.
 
 ## Technologies Used
 
@@ -38,3 +54,16 @@ python duplicate_finder.py
 ## Author
 
 Charan Aade | Python Developer
+
+
+
+
+
+
+
+
+
+
+
+
+
