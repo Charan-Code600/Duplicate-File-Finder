@@ -55,4 +55,5 @@ When duplicate copies of the same file are found, the tool always keeps the **ol
 
 ## Author
 
-Charan Aade | Python Developer
+**Charan Aade | Python Developer**
+
