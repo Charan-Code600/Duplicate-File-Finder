@@ -41,7 +41,22 @@
 </p>
 
 
+<!-- ==================== Badges ==================== -->
 
+<div align="center">
+
+# $\textsf{\color{#FFB800}{Badges}}$
+
+</div>
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Dependencies](https://img.shields.io/badge/Dependencies-None-00C851?style=for-the-badge)
+![Interface](https://img.shields.io/badge/Interface-CLI-2B2B2B?style=for-the-badge&logo=gnubash&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Complete-FFB800?style=for-the-badge)
+
+</div>
 
 
 
