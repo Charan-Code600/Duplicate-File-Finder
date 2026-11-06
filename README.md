@@ -3,6 +3,68 @@
 
 
 
+<!-- ==================== ANIMATED BANNER ==================== -->
+
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:0f2027,100:2c5364&height=160&section=header&text=Duplicate%20File%20Finder&fontSize=44&fontColor=FFB800&animation=scaleIn&fontAlignY=42&desc=Python%20%7C%20SHA-256%20%7C%20File%20Handling&descSize=18&descAlignY=68" width="100%"/>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # 🔍 Duplicate File Finder
 
 A Python tool that scans a folder (and all its subfolders) and finds duplicate files by comparing their actual content using SHA-256 hashing — not just file name or size.
