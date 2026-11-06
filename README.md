@@ -11,7 +11,13 @@
 </div>
 
 
+<!-- ==================== Tagline ==================== -->
 
+<div align="center">
+
+### A command-line tool that scans a folder and all its subfolders, finds duplicate files by comparing their actual content with SHA-256 hashing, and deletes the extra copies only after you confirm.
+
+</div>
 
 
 
