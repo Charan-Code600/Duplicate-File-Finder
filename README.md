@@ -122,6 +122,13 @@
 ### Over time the same file gets copied into many folders and quietly wastes storage. Checking by hand is slow, and comparing file names is not reliable, because two files can have different names and the same content. This project scans a folder and every subfolder, creates a SHA-256 hash of each file's content, and groups the files that are identical. In each group it keeps the oldest file and, only after you confirm, deletes the rest. It was built to practise hashing, folder traversal and safe file deletion.
 
 
+</div>
+
+<!-- ==================== GLOWING DIVIDER ==================== -->
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=4&width=1200" width="100%" />
+</p>
 
 
 
