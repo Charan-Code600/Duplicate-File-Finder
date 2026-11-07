@@ -111,6 +111,15 @@
 </p>
 
 
+<!-- ==================== Overview ==================== -->
+
+<a id="overview"></a>
+
+![1 Overview](https://img.shields.io/badge/1-Overview-FFB800?style=for-the-badge&labelColor=1a1a2e)
+
+<div align="center">
+
+### Over time the same file gets copied into many folders and quietly wastes storage. Checking by hand is slow, and comparing file names is not reliable, because two files can have different names and the same content. This project scans a folder and every subfolder, creates a SHA-256 hash of each file's content, and groups the files that are identical. In each group it keeps the oldest file and, only after you confirm, deletes the rest. It was built to practise hashing, folder traversal and safe file deletion.
 
 
 
