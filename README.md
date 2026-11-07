@@ -140,7 +140,88 @@
 
 
 
+<div align="center">
+<i>Real output on a small test folder: one duplicate group is found and deleted after confirmation, then a second scan shows none left. The folder had a.txt, b.txt and sub/c.txt (same content), d.txt (different) and one empty file.</i>
+</div>
 
+```
+*******************************************************
+        ╔══════════════════════════════════╗
+        ║     DUPLICATE FILE FINDER        ║
+        ╚══════════════════════════════════╝
+*******************************************************
+
+        Scan a folder                    Enter  →  1
+        Exit                             Enter  →  2
+
+*******************************************************
+
+
+Choose: 1
+Enter folder path: C:\test_dup
+
+🔍 Scanning files...
+📁 Total files found: 5
+ℹ️  Skipped 1 empty (0-byte) file(s) — not treated as duplicates.
+
+==================================================
+Duplicate Files Found:
+==================================================
+
+Group 1:
+  ✅ KEEP   : C:\test_dup\a.txt
+  🗑️  DELETE : C:\test_dup\b.txt
+  🗑️  DELETE : C:\test_dup\sub\c.txt
+
+--------------------------------------------------
+Duplicate groups found : 1
+Files that will be deleted : 2
+(The oldest file in each group is always kept.)
+--------------------------------------------------
+
+Delete these duplicate files? (yes/no): no
+
+❌ No files deleted.
+
+Choose: 1
+Enter folder path: C:\test_dup
+
+🔍 Scanning files...
+📁 Total files found: 5
+ℹ️  Skipped 1 empty (0-byte) file(s) — not treated as duplicates.
+
+==================================================
+Duplicate Files Found:
+==================================================
+
+Group 1:
+  ✅ KEEP   : C:\test_dup\a.txt
+  🗑️  DELETE : C:\test_dup\b.txt
+  🗑️  DELETE : C:\test_dup\sub\c.txt
+
+--------------------------------------------------
+Duplicate groups found : 1
+Files that will be deleted : 2
+(The oldest file in each group is always kept.)
+--------------------------------------------------
+
+Delete these duplicate files? (yes/no): yes
+
+✅ Deleted 2 file(s).
+
+Choose: 1
+Enter folder path: C:\test_dup
+
+🔍 Scanning files...
+📁 Total files found: 3
+ℹ️  Skipped 1 empty (0-byte) file(s) — not treated as duplicates.
+
+✅ No duplicate files found.
+
+Choose: 2
+
+👋 Goodbye!
+```
 
 
 
