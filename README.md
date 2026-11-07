@@ -237,9 +237,20 @@ Choose: 2
 
 ![3 Features](https://img.shields.io/badge/3-Features-FFB800?style=for-the-badge&labelColor=1a1a2e)
 
+<div align="center">
 
+| Feature | What it does |
+|:--|:--|
+| 🔐 **Content-based Detection** | Compares SHA-256 hashes of file content, so files with different names but the same content are still found |
+| 📂 **Recursive Scan** | Scans the chosen folder and every subfolder inside it |
+| 🧩 **Chunked Reading** | Reads each file in 8 KB pieces, so large files do not fill memory |
+| 📁 **Grouped Results** | Lists duplicates in groups, with the file to KEEP and the files to DELETE clearly marked |
+| 🗓️ **Predictable Keep Rule** | The oldest file (by last-modified time) in each group is always kept |
+| 🧹 **Empty Files Skipped** | 0-byte files are ignored, because all empty files look the same but are not real duplicates |
+| ✅ **Confirmation First** | Shows the full list and the count before deleting, and removes nothing unless you type `yes` |
+| 🔁 **Menu-driven** | Scan as many folders as you like in one session without restarting the program |
 
-
+</div>
 
 
 
