@@ -231,6 +231,11 @@ Choose: 2
 </p>
 
 
+<!-- ==================== Features ==================== -->
+
+<a id="features"></a>
+
+![3 Features](https://img.shields.io/badge/3-Features-FFB800?style=for-the-badge&labelColor=1a1a2e)
 
 
 
