@@ -73,7 +73,35 @@
 
 #  $\textsf{\color{#FFB800}{Table of Contents}}$
 
+</div>
 
+<div align="center">
+<table>
+<tr><td align="left">
+
+[![1 Overview](https://img.shields.io/badge/1-Overview-FFB800?style=for-the-badge&labelColor=1a1a2e)](#overview)
+<br>
+[![2 Demo](https://img.shields.io/badge/2-Demo-FFB800?style=for-the-badge&labelColor=1a1a2e)](#demo)
+<br>
+[![3 Features](https://img.shields.io/badge/3-Features-FFB800?style=for-the-badge&labelColor=1a1a2e)](#features)
+<br>
+[![4 Tech Stack](https://img.shields.io/badge/4-Tech%20Stack-FFB800?style=for-the-badge&labelColor=1a1a2e)](#tech-stack)
+<br>
+[![5 Installation](https://img.shields.io/badge/5-Installation-FFB800?style=for-the-badge&labelColor=1a1a2e)](#installation)
+<br>
+[![6 How to Use](https://img.shields.io/badge/6-How%20to%20Use-FFB800?style=for-the-badge&labelColor=1a1a2e)](#how-to-use)
+<br>
+[![7 Project Structure](https://img.shields.io/badge/7-Project%20Structure-FFB800?style=for-the-badge&labelColor=1a1a2e)](#project-structure)
+<br>
+[![8 Key Highlights](https://img.shields.io/badge/8-Key%20Highlights-FFB800?style=for-the-badge&labelColor=1a1a2e)](#key-highlights)
+<br>
+[![9 Future Improvements](https://img.shields.io/badge/9-Future%20Improvements-FFB800?style=for-the-badge&labelColor=1a1a2e)](#future-improvements)
+<br>
+[![10 Author](https://img.shields.io/badge/10-Author-FFB800?style=for-the-badge&labelColor=1a1a2e)](#author)
+
+</td></tr>
+</table>
+</div>
 
 
 
