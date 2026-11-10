@@ -260,6 +260,11 @@ Choose: 2
 </p>
 
 
+<!-- ==================== Tech Stack ==================== -->
+
+<a id="tech-stack"></a>
+
+![4 Tech Stack](https://img.shields.io/badge/4-Tech%20Stack-FFB800?style=for-the-badge&labelColor=1a1a2e)
 
 
 
