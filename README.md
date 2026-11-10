@@ -294,6 +294,31 @@ Choose: 2
 ![5 Installation](https://img.shields.io/badge/5-Installation-FFB800?style=for-the-badge&labelColor=1a1a2e)
 
 
+<div align="center">
+
+**Requirements:** Python 3.8 or newer. No libraries to install.
+
+</div>
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Charan-Code600/Duplicate-File-Finder.git
+
+# 2. Open the project folder
+cd Duplicate-File-Finder
+
+# 3. Run the program
+python duplicate_file_finder.py
+```
+
+<div align="center">
+
+If `python` is not recognised on your system, use `python3 duplicate_file_finder.py` instead.
+
+</div>
+
+> [!WARNING]
+> This program **permanently deletes files**. Deleted files do **not** go to the Recycle Bin. Read the KEEP / DELETE list carefully before you confirm, and try it on a test folder or back up important folders first.
 
 
 
