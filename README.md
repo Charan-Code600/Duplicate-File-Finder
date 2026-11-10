@@ -267,7 +267,16 @@ Choose: 2
 ![4 Tech Stack](https://img.shields.io/badge/4-Tech%20Stack-FFB800?style=for-the-badge&labelColor=1a1a2e)
 
 
+<div align="center">
 
+| Layer | Technology | Used for |
+|:------|:-----------|:---------|
+| **Language** | ![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=flat-square&logo=python&logoColor=white) | Core logic and the command-line menu |
+| **Library** | ![Standard Library](https://img.shields.io/badge/Standard%20Library-4B8BBE?style=flat-square) | `os`, `hashlib` |
+| **Algorithm** | ![SHA-256](https://img.shields.io/badge/Hashing-SHA--256-2B2B2B?style=flat-square) | Creating a fingerprint of each file's content |
+| **Concepts** | Hashing · Folder traversal with `os.walk` · Dictionaries for grouping · File handling · Exception handling · Loops · Functions | Practised throughout the program |
+
+</div>
 
 
 
