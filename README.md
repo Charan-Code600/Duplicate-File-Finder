@@ -287,6 +287,11 @@ Choose: 2
 </p>
 
 
+<!-- ==================== Installation ==================== -->
+
+<a id="installation"></a>
+
+![5 Installation](https://img.shields.io/badge/5-Installation-FFB800?style=for-the-badge&labelColor=1a1a2e)
 
 
 
