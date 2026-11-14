@@ -335,7 +335,19 @@ If `python` is not recognised on your system, use `python3 duplicate_file_finder
 ![6 How to Use](https://img.shields.io/badge/6-How%20to%20Use-FFB800?style=for-the-badge&labelColor=1a1a2e)
 
 
+<div align="center">
 
+| Step | What to do |
+|:----:|:-----------|
+| 1 | Run the program. A menu appears: `1` to scan a folder, `2` to exit |
+| 2 | Enter `1` to scan a folder |
+| 3 | Enter the full folder path. Subfolders are included automatically |
+| 4 | The program scans every file and groups the ones with identical content |
+| 5 | For each group it shows the file to **KEEP** (the oldest) and the files to **DELETE** |
+| 6 | Type `yes` to delete the listed duplicates, or `no` to cancel |
+| 7 | You return to the menu. Enter `1` to scan another folder or `2` to exit |
+
+</div>
 
 
 
