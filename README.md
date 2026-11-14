@@ -328,6 +328,11 @@ If `python` is not recognised on your system, use `python3 duplicate_file_finder
 
 
 
+<!-- ==================== How to Use ==================== -->
+
+<a id="how-to-use"></a>
+
+![6 How to Use](https://img.shields.io/badge/6-How%20to%20Use-FFB800?style=for-the-badge&labelColor=1a1a2e)
 
 
 
