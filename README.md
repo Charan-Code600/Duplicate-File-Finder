@@ -320,7 +320,11 @@ If `python` is not recognised on your system, use `python3 duplicate_file_finder
 > [!WARNING]
 > This program **permanently deletes files**. Deleted files do **not** go to the Recycle Bin. Read the KEEP / DELETE list carefully before you confirm, and try it on a test folder or back up important folders first.
 
+<!-- ==================== GLOWING DIVIDER ==================== -->
 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=4&width=1200" width="100%" />
+</p>
 
 
 
