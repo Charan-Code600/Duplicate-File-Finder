@@ -357,6 +357,17 @@ If `python` is not recognised on your system, use `python3 duplicate_file_finder
 </p>
 
 
+<!-- ==================== Project Structure ==================== -->
+
+<a id="project-structure"></a>
+
+![7 Project Structure](https://img.shields.io/badge/7-Project%20Structure-FFB800?style=for-the-badge&labelColor=1a1a2e)
+
+```text
+Duplicate-File-Finder/
+├── duplicate_file_finder.py   # Main program
+└── README.md                  # Project documentation
+```
 
 
 
