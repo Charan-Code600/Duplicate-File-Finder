@@ -369,7 +369,11 @@ Duplicate-File-Finder/
 └── README.md                  # Project documentation
 ```
 
+<!-- ==================== GLOWING DIVIDER ==================== -->
 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=4&width=1200" width="100%" />
+</p>
 
 
 
