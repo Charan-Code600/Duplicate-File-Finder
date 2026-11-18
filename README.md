@@ -383,6 +383,13 @@ Duplicate-File-Finder/
 ![8 Key Highlights](https://img.shields.io/badge/8-Key%20Highlights-FFB800?style=for-the-badge&labelColor=1a1a2e)
 
 
+- **Content, not names:** files are compared by SHA-256 hash, so renamed copies are still found
+- **Safe by design:** nothing is deleted until the full list is shown and you type `yes`
+- **Predictable result:** the oldest file in each group is always kept
+- **Works on large files:** files are read in 8 KB chunks instead of being loaded whole
+- **Zero external dependencies:** only Python's standard library is used
+- **Readable errors:** an invalid folder, an invalid menu option or an unreadable file shows a clear message
+
 
 
 
