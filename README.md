@@ -376,6 +376,11 @@ Duplicate-File-Finder/
 </p>
 
 
+<!-- ==================== Key Highlights ==================== -->
+
+<a id="key-highlights"></a>
+
+![8 Key Highlights](https://img.shields.io/badge/8-Key%20Highlights-FFB800?style=for-the-badge&labelColor=1a1a2e)
 
 
 
