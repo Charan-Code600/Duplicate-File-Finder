@@ -398,7 +398,9 @@ Duplicate-File-Finder/
 </p>
 
 
+<!-- ==================== Future Improvements ==================== -->
 
+<a id="future-improvements"></a>
 
 
 
