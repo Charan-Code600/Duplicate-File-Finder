@@ -406,7 +406,11 @@ Duplicate-File-Finder/
 
 
 
-
+- [ ] Send duplicates to the Recycle Bin instead of deleting them permanently
+- [ ] Add a preview-only (dry-run) mode that never deletes
+- [ ] Let the user choose which file to keep in each group
+- [ ] Compare file sizes first, so files that cannot be duplicates are not hashed
+- [ ] Save the list of duplicates to a text or CSV file
 
 
 
