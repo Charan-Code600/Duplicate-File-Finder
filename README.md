@@ -402,7 +402,7 @@ Duplicate-File-Finder/
 
 <a id="future-improvements"></a>
 
-
+![9 Future Improvements](https://img.shields.io/badge/9-Future%20Improvements-FFB800?style=for-the-badge&labelColor=1a1a2e)
 
 
 
